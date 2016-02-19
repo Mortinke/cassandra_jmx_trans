@@ -41,10 +41,12 @@ table_metrics{'<keyspace_name_1>.<table_name_2>':
 }
 ```
 
-##### parameter 
+##### variables 
 
 please replace the following variables with your values or puppet references:
+```
 <jmx_port> = cassandra JMX-Port (cassandra-env.sh)
 <username> = JMX username (cassandra-env.sh)
 <password> = JMX password (cassandra-env.sh)
 <graphite_host>:<graphite_port> = hostname or ip address with port from your graphite server
+```
