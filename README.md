@@ -39,6 +39,7 @@ table_metrics{'<keyspace_name_1>.<table_name_2>':
   keyspace => '<keyspace_name_1>',
   table    => '<table_name_2>,
 }
+```
 
 ##### parameter 
 
